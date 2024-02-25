@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: #fb736f;
+}
+
+.nav-item{
+    font-size: 1.15rem ;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.navbar a{
+    color: white;
+}
+
+/* SEARCH SECTION */
+#searchSection {
+    background-color: black;
+}
+
+#searchSection img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.tagline {
+    color: white;
+    font-size: 5.5rem;
+    font-family: "Love Light", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tagAndSearch {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    right: 25%;
+    justify-items: center;
+}
+
+.searchButton{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #E24E42;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.searchButton:hover{
+    background-color: #9a2c22;
+    color: black;
+}
+
+/*TESTIMONIAL SECTION */
+.carousel-inner{
+    width: 80%;
+}
+
+.carousel-item{
+    margin: auto;
+    padding-left: 18rem;
+    border: 0;
+}
+
+#testimonial{
+    background-color: #ff5757;
+}
+
+/*UPLOAD SECTION*/
+#upload{
+    background-color: black;
+}
+
+#upload img{
+    width: 100%;
+    opacity: 0.8;
+}
+
+.uploadDiv{
+    position: absolute;
+    left: 50%;
+    right: 10%;
+    bottom: -160%;
+    align-items: center;
+}
+
+.uploadDiv p{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.uploadbutton{
+    margin-top: 2rem;
+}
+
+/*ABOUT SECTION*/
+.icon-square{
+    background-color: black;
+}
+
+#about{
+    background-color: #ff5757;
+}
+
+#about h2,h3{
+    color: white;
+}
+
+#about p{
+    color: black;
+    font-size: 1.4rem;
+}
+
+#about .col{
+    padding-right: 1rem;
+}
+
+.col img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/*FOOTER SECTION*/
+#footer a,p{
+    color: white;
+    margin: 0;
+}
+
+#footer{
+    background-color: rgb(41, 28, 28);
+}
+
