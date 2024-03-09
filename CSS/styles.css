@@ -26,7 +26,7 @@ body {
 
 #searchSection img {
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .tagline {
@@ -58,6 +58,100 @@ body {
     background-color: #9a2c22;
     color: black;
 }
+
+#searchByIngredient {
+    margin-top: 20px;
+   /* background-color: #fff;  Background color for the ingredient search form */
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+}
+
+#searchByIngredient label,
+#searchByDish label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white; /* Text color */
+    font-weight: bold;
+    /* background-color:#9a2c22; */
+    margin-left: 165px;
+    font-size: 25px;
+
+}
+
+#searchByIngredient input[type="text"],
+#searchByDish input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    margin-bottom: 19px;
+}
+
+#searchByIngredient button[type="submit"],
+#searchByDish button[type="submit"] {
+    background-color: #E24E42; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 203px;
+}
+
+#searchByIngredient button[type="submit"]:hover,
+#searchByDish button[type="submit"]:hover {
+    background-color: #9a2c22; /* Button hover background color */
+}
+
+#searchByDish {
+    margin-top: 20px;
+   /* background-color: #fff;  Background color for the ingredient search form */
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+}
+
+#searchByDish label,
+#searchByDish label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white; /* Text color */
+    font-weight: bold;
+    /* background-color:#9a2c22; */
+    margin-left: 165px;
+    font-size: 25px;
+}
+
+#searchByDish input[type="text"],
+#searchByDish input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#searchByDish button[type="submit"],
+#searchByDish button[type="submit"] {
+    background-color: #E24E42; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+#searchByDish button[type="submit"]:hover,
+#searchByDish button[type="submit"]:hover {
+    background-color: #9a2c22; /* Button hover background color */
+}
+
 
 /*TESTIMONIAL SECTION */
 .carousel-inner{
